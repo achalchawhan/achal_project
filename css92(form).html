@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rform </title>
+	<style>
+		form{
+			font-size: 25px;
+			margin-left:50px;
+		}
+		h2{
+			font-size: 45px;
+			margin-left: 30px;
+		}
+
+		#nav{
+			width: 1500px;
+			height: 50px;
+			border: 2px solid white;
+		}
+		ul{
+			list-style: none;
+			position: relative;
+		}
+
+		ul li{
+			height:50px;
+			width: 100px;
+			border: 2px solid black;
+			border-radius: 50%;	
+			float: left;
+			color: white;
+			background:black;
+			text-decoration: none;
+			text-align: center;
+			font-size: 24px;
+			list-style: none;
+			line-height: 50px;
+			
+		}
+
+		ul li a{
+			text-decoration: none;
+			color: white;
+			display: block;
+		}
+		ul li a:hover{
+			color: yellow;
+			background: blue;
+			font-weight: bold;
+			border-radius: 50%;
+			text-decoration: none;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="nav">
+	<ul>
+		<li><a href="wbsite(css92).html">Back</a></li>
+	</ul>
+	</div>
+	
+	<h2>Information</h2>
+   
+	<form>
+		<label for="fname">Name</label>
+		<input type="text" id="fname" required placeholder="Enter your Name">
+		<br><br>
+		<label for="lname">Last name</label>
+		<input type="text" id="lname" required placeholder="Enter your Lastname">
+		<br><br>
+		<label for="email">Email</label>
+		<input type="email" id="fname" placeholder="Enter your email" >
+		<br><br>
+		<label for="contact">Contact</label>
+		<input type="number" id="contact" placeholder="Enter your contact no">
+		<br><br>
+		<label for="country">City</label>
+		<select>
+	    <option value="india">Mumbai</option>
+	    <option value="russia">Pune</option>
+	    <option value="asia">Nasik</option>
+	    <option value="brazil">Nagpur</option>
+	    <option value="india">Chandrapur</option>
+	    <option value="russia">Gondia</option>
+	    <option value="india">Bhandara</option>
+        </select>
+        <br><br>
+        <label for="address">Address</label>
+		<textarea rows="4" cols="20"></textarea>
+		<br><br>
+		<label for="country">Payment Mode</label>
+		<select>
+	    <option value="gpay">GPay</option>
+	    <option value="phonepe">PhpnePe</option>
+	    <option value="upi">UPI</option>
+	    <option value="bank">Bank Acount</option>
+        </select>
+        <br><br>
+		<label for="accout no">GPay No-</label>
+		<input type="number" id="accout no" placeholder="Enter Gpay No">
+		
+        <br><br>
+		<label for="accout no">UPI NO-</label>
+		<input type="number" id="accout no" placeholder="Enter UPI">
+		<br><br>
+		<label for="accout no">PhonePe No-</label>
+		<input type="number" id="accout no" placeholder="Enter phonepe no">
+        <br><br>
+		<label for="accout no">Account No-</label>
+		<input type="number" id="accout no" placeholder="Enter Account No">
+		<br><br>
+		<label for="submit"></label>
+        <input type="submit" id="fname">
+        <label for="reset"></label>
+        <input type="reset" id="fname">
+
+
+	</form>
+</body>
+</html>
